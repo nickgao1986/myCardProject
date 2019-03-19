@@ -67,8 +67,8 @@ public class MainActivity extends FragmentActivity implements ITestView {
                 list);
         viewpager.setAdapter(mAapter);
         viewpager.setOffscreenPageLimit(3);
-        viewpager.setCurrentItem(list.size()-1);
         viewpager.setPageTransformer(true,new CardTransformer());
+        viewpager.setCurrentItem(list.size()-1);
     }
 
     public void startRain() {
