@@ -1,4 +1,4 @@
-package com.imooc.nick.cardtestproject.view;
+package com.imooc.nick.rainproject;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,7 +8,6 @@ import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-import com.imooc.nick.cardtestproject.bean.EmotionBean;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

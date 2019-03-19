@@ -15,8 +15,8 @@ import com.imooc.nick.cardtestproject.bean.QuestionInfo;
 import com.imooc.nick.cardtestproject.presenter.TestPresenter;
 import com.imooc.nick.cardtestproject.transform.CardTransformer;
 import com.imooc.nick.cardtestproject.util.InviteHelper;
-import com.imooc.nick.cardtestproject.view.EmotionRainView;
 import com.imooc.nick.cardtestproject.view.ITestView;
+import com.imooc.nick.rainproject.EmotionRainView;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -67,9 +67,9 @@ public class MainActivity extends FragmentActivity implements ITestView {
                 list);
         viewpager.setAdapter(mAapter);
         viewpager.setOffscreenPageLimit(3);
+        viewpager.setCurrentItem(list.size()-1);
 
         viewpager.setPageTransformer(true,new CardTransformer());
-        viewpager.setCurrentItem(0);
     }
 
     public void startRain() {

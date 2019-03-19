@@ -84,9 +84,9 @@ public class TestPresenter {
         for (int i=0;i<mHistoryList.size();i++) {
             QuestionInfo info = mHistoryList.get(i);
             int status = info.status;
-            if(status == -1) {
+            if(status == 0) {
                 deleteList.add(info);
-            }else if(status == 0){
+            }else if(status == 1){
                 paperList.add(info);
             }
         }

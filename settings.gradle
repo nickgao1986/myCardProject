@@ -1,1 +1,1 @@
-include ':app', ':emotionrain'
+include ':app', ':emotionrain', ':emotionrain2', ':rainproject'

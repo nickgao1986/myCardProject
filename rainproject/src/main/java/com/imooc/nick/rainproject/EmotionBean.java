@@ -1,4 +1,4 @@
-package com.imooc.nick.cardtestproject.bean;
+package com.imooc.nick.rainproject;
 
 import android.graphics.Bitmap;
 
